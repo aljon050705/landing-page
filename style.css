@@ -1,0 +1,175 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+    font-size: 25px;
+    padding:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-buttons button {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    cursor:pointer;
+}
+
+/* INTRODUCTION */
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding:100px;
+    background: #1f2937;
+    color:white;
+}
+
+.introduction-information {
+    font-size:26px;
+    text-align: center;
+}
+.introduction-image {
+    width: 540px;
+    height: 304px;
+    background-color: rgb(119, 121, 133);
+    flex:initial;
+}
+
+.introduction-button {
+    margin: 10px 0 0;
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* SHOWCASE */
+.showcase-title {
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.showcase-panel {
+    padding: 30px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+.showcase-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:200px;
+}
+
+.showcase-box img {
+    display:block;
+    border:3px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width:200px;
+    flex:0 1 auto;
+}
+
+.showcase-box p{
+    word-break: break-all;
+}
+
+/* QUOTE */
+.quote {
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+.quote div{
+    padding: 100px;
+    display: inline-block;
+    width: 65%;
+    flex-wrap: wrap;
+}
+
+.quote p {
+    text-align: left;
+    font-size: 2vw;
+    font-weight: 0;
+    font-style: italic;
+}
+
+.quote h3 { 
+    font-size: 1vw;
+    text-align: right;
+    margin: 10px 0 0;
+}
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    margin: 100px;
+}
+
+.contact > div {
+    padding:15px 0;
+    text-align: left;
+    border-radius: 8px;
+    width: 25%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    position: relative;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info > p {
+    font-size: 15px;
+    color:lightgray;
+}
+
+.contact-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font: inherit;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* COPYRIGHT */
+.copyright {
+    padding:15px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.copyright p{
+    font-size: 15px;
+    font-style: normal;
+}
